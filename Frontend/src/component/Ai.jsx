@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import ai from "../assets/ai.png"
+import ai from "../assets/Ai.png"
 import { useNavigate } from 'react-router-dom'
 import toast from 'react-hot-toast'
 
