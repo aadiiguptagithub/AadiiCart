@@ -7,7 +7,7 @@ export const authDataContext = createContext()
 function AuthContex({ children }) {
     const [userData, setUserData] = useState(null)
     const [loading, setLoading] = useState(true)
-    const serverUrl = "http://localhost:8000"
+    const serverUrl = "https://aadiicart-backend.onrender.com"
     const navigate = useNavigate()
 
     // Check if user is logged in on app start
